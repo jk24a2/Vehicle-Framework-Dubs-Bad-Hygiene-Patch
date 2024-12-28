@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ModMetaData>
+	<name>Vehicle Framework + Dubs Bad Hygiene Patch</name>
+	<author>Ted_Jerro</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>VF_DBH_Patch</packageId>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>SmashPhil.VehicleFramework</packageId>
+			<displayName>Vehicle Framework</displayName>
+			<downloadUrl>https://github.com/SmashPhil/Vehicles/releases/latest</downloadUrl>
+			<steamWorkshopUrl/>
+		</li>
+		<li>
+            <packageId>Dubwise.DubsBadHygiene</packageId>
+            <displayName>Dubs Bad Hygiene</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/836308268</steamWorkshopUrl>
+        </li>
+	</modDependencies>
+	<loadBefore>
+	</loadBefore>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>SmashPhil.VehicleFramework</li>
+		<li>Dubwise.DubsBadHygiene</li>	
+	</loadAfter>
+	<description>Compatibility patch between Vehicle Framework and Dubs Bad Hygiene. Caravans should now take care of hygiene, bladder and thirst needs. Pawns will also be able to take a drink while just driving a vehicle on normal map.</description>
+	<incompatibleWith>
+	</incompatibleWith>
+</ModMetaData>
